@@ -12,3 +12,7 @@
         src: ./target/Lab3Junit-1.0-SNAPSHOT.jar
         dest: ~/
         mode: '0755'
+    - name: Create a new file
+          file:
+              path: /home/new.txt
+              state: touch
